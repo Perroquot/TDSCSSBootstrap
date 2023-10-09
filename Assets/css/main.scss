@@ -1,37 +1,30 @@
-@use 'abstracts/functions';
-@use 'abstracts/mixins';
-@use 'abstracts/placeholders';
-@use 'abstracts/variable';
+@use "abstracts/functions";
+@use "abstracts/mixins";
+@use "abstracts/placeholders";
+@use "./abstracts/variable" as *;
+@use "base/reset";
+@use "base/typography";
 
-@use 'base/reset';
-@use 'base/typography';
+@use "components/buttons";
+@use "components/carousel";
+@use "components/cover";
+@use "components/dropdown";
 
-@use 'components/buttons';
-@use 'components/carousel';
-@use 'components/cover';
-@use 'components/dropdown';
+@use "layout/footer";
+@use "layout/forms";
+@use "layout/grid";
+@use "layout/header";
+@use "layout/index";
+@use "layout/shopping";
+@use "layout/navigation";
+@use "layout/sidebar";
 
-@use 'layout/footer';
-@use 'layout/forms';
-@use 'layout/grid';
-@use 'layout/header';
-@use 'layout/index';
-@use 'layout/shopping';
-@use 'layout/navigation';
-@use 'layout/sidebar';
+@use "pages/contact";
+@use "pages/home";
 
-@use 'pages/contact';
-@use 'pages/home';
+@use "themes/admin";
+@use "themes/theme";
 
-@use 'themes/admin';
-@use 'themes/theme';
+@import "../bootstrap/scss/bootstrap.scss"; // @import "compass/css3/font-face";
 
-@import '../bootstrap/scss/bootstrap.scss'
-
-
-
-
-// @import "compass/css3/font-face";
-
-// @include 
-
+// @include
