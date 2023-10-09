@@ -6,7 +6,7 @@
     <title>TD : Intégration web avec Bootstrap & SASS</title>
     <link rel="stylesheet" href="./Assets/css/style.css">
 </head>
-<body>
+<body class="bg-noir">
     <header>
       <div class="navbar bg-primary">
         <div class="navbar__logo">
@@ -135,15 +135,20 @@
             <div class="form__form">
                 <form action="" class="">
                     <div class="form__form__input">
-                        <input type="text" class="form__form__name" name="name" placeholder="Name">
+                        <input type="text" class="form__form__name bg-primary" name="name" placeholder="Name">
                     </div>
                     <div class="form__form__input">    
-                        <input type="text" class="form__form__mail" name="mail" placeholder="Email">
+                        <input type="text" class="form__form__mail bg-primary" name="mail" placeholder="Email">
                     </div>
                     <div class="form__form__input">
-                        <input type="text" class="form__form__subject" name="subject" placeholder="Subject">
+                        <input type="text" class="form__form__subject bg-primary" name="subject" placeholder="Subject">
                     </div>
-                    <textarea name="message" class="form__form__message" cols="55" rows="7" placeholder="Type your message here"></textarea>
+                    <div class="form__form__input">
+                        <textarea name="message" class="form__form__message bg-primary" cols="51" rows="7" placeholder="Type your message here"></textarea>
+                    </div>
+                    <div class="form__form__submit">
+                        <button class="form__form__submit__button">Submit</button>
+                    </div>
                 </form>
             </div>
         </div>
