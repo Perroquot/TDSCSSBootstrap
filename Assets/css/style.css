@@ -1,4 +1,45 @@
 @charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.form {
+  width: 70%;
+  margin-left: 15%;
+  background-color: #0B181E;
+  display: flex;
+  flex-direction: column;
+}
+.form__text h3, .form__text .h3 {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+.form__text p {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+.form__form {
+  display: flex;
+  justify-content: center;
+}
+.form__form__input {
+  margin-bottom: 2vh;
+}
+.form__form__input input {
+  width: 45vh;
+  height: 5vh;
+  background-color: #0B181E;
+  border: 1px solid #ffffff;
+}
+.form__form__input input ::placeholder {
+  color: #ffffff;
+}
+
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

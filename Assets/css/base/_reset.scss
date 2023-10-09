@@ -1,0 +1,10 @@
+@use '../abstracts/variable' as *;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    // color: map-get($map: $colors, $key: 'white');
+    list-style: none;
+    text-decoration: none;
+}
