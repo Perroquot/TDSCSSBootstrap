@@ -1,3 +1,33 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../typo/PlayfairDisplay-Regular.ttf");
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(../typo/Raleway-Regular.ttf);
+}
+h1, .h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5 {
+  font-family: "Playfair Display";
+}
+
+header {
+  display: none;
+}
+
+.montains__section {
+  background: url("/Assets/img/montagne.png") no-repeat;
+  height: 762px;
+}
+
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
