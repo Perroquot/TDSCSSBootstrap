@@ -1,0 +1,17 @@
+$primary: #0b181e;
+$secondary: #f9b860;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+);
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../typo/PlayfairDisplay-Regular.ttf");
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(../typo/Raleway-Regular.ttf);
+}
+$font-family-base: "Raleway";
+$font-family-title: "Playfair Display";
