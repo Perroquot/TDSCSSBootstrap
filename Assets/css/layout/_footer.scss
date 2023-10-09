@@ -1,0 +1,16 @@
+.footer{
+
+    &__logo{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5vh;
+
+        & img{
+            margin-right: 1vh;
+        }
+    }
+    &__text{
+        display: flex;
+        justify-content: center;
+    }
+}
