@@ -1,0 +1,39 @@
+@use '../abstracts/variable' as *;
+
+.form{
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+
+    &__text{
+        
+        & h3{
+            display: flex;
+            justify-content: center;
+
+            
+        }
+
+        & p{
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    &__form{
+        display: flex;
+        justify-content: center;
+
+        &__input{
+            
+            margin-bottom: 2vh;
+        
+            & input{
+                width: 45vh;
+                height: 5vh;
+
+            }
+        }
+    }
+}

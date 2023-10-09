@@ -74,7 +74,7 @@
         <section class="form">
         <div class="buttons"></div> 
 
-        <section class="citation bg-primary">
+        <section class="citation">
             <div class="citation__left">
                 <i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
             </div>
@@ -126,18 +126,24 @@
         </section>
 
 
-        <div class="form">
+        <div class="form bg-primary">
             <div class="form__text">
                 <h3>Contact</h3>
                 <p>Questions? Call us at 123-456-7890 or leave us a message:</p>
                 <p>500 Terry Francine Street San Francisco, CA 94158</p>
             </div>
             <div class="form__form">
-                <form action="">
-                    <input type="text" class="form__form__name" name="name" placeholder="Name">
-                    <input type="text" class="form__form__mail" name="mail" placeholder="Email">
-                    <input type="text" class="form__form__subject" name="subject" placeholder="Subject">
-                    <textarea name="message" class="form__form__message" cols="55" rows="7" placeholder="Message"></textarea>
+                <form action="" class="">
+                    <div class="form__form__input">
+                        <input type="text" class="form__form__name" name="name" placeholder="Name">
+                    </div>
+                    <div class="form__form__input">    
+                        <input type="text" class="form__form__mail" name="mail" placeholder="Email">
+                    </div>
+                    <div class="form__form__input">
+                        <input type="text" class="form__form__subject" name="subject" placeholder="Subject">
+                    </div>
+                    <textarea name="message" class="form__form__message" cols="55" rows="7" placeholder="Type your message here"></textarea>
                 </form>
             </div>
         </div>

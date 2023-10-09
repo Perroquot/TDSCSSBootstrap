@@ -1,3 +1,62 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../typo/PlayfairDisplay-Regular.ttf");
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(../typo/Raleway-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+h1, .h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5 {
+  font-family: "Playfair Display";
+}
+
+.form {
+  width: 70%;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+}
+.form__text h3, .form__text .h3 {
+  display: flex;
+  justify-content: center;
+}
+.form__text p {
+  display: flex;
+  justify-content: center;
+}
+.form__form {
+  display: flex;
+  justify-content: center;
+}
+.form__form__input {
+  margin-bottom: 2vh;
+}
+.form__form__input input {
+  width: 45vh;
+  height: 5vh;
+}
+
+.montains__section {
+  background: url("/Assets/img/montagne.png") no-repeat;
+  height: 762px;
+}
+
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
