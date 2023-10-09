@@ -8,18 +8,18 @@
 </head>
 <body>
     <header>
-      <div class="navbar">
-        <div>
+      <div class="navbar bg-primary">
+        <div class="navbar__logo">
           <img src="./Assets/img/logo tente.png" alt="logo tente" />
-          <h2>cooking' Camp</h2>
+          <p>cooking' Camp</p>
         </div>
-        <div>
-          <div>
+        <div class="navbar__infos">
+          <div class="infos__links">
             <a href="">Home</a>
             <a href="">Infos</a>
             <a href="">Dates</a>
           </div>
-          <div>
+          <div class="infos__reseaux">
             <a href=""><img src="./Assets/img/fb.png" alt="facebook" /></a>
             <a href=""><img src="./Assets/img/insta.png" alt="instagram" /></a>
             <a href=""><img src="./Assets/img/youtube.png" alt="youtube" /></a>
@@ -29,18 +29,18 @@
       <div class="title">
         <h1>Culinary Sleepaway <br />Camp for Grown-Ups!</h1>
         <p class="desc-title">Summer 2035 | Lassen State Park</p>
-      </div>
-      <div class="sign"><button>Sign Me Up</button></div>
-      </div>
+        </div>
+        <div class="sign"><button>Sign Me Up</button></div>
+        </div>
     </header>
     <main>
         <section class="barbecue">
             <div class="desc-barbecue">
                 <h3>History of Cooking' Camp</h3>
                 <p>I'm a paragraph. Click here to add your own text and edit me. It's
-                     easy. Just click “Edit Text” or double click me to add your own
-                      content and make changes to the font. I'm a great place for you
-                       to tell a story and let your users know a little more about you.
+                    easy. Just click “Edit Text” or double click me to add your own
+                    content and make changes to the font. I'm a great place for you
+                    to tell a story and let your users know a little more about you.
                 </p>
                 <div class="sign"><button>Sign Me Up</button></div>
             </div>
@@ -49,23 +49,29 @@
             </div>
         </section>
 
-    <div class="montains_section">
+    <section class="montains__section d-flex flex-column align-items-center justify-content-center">
         <h3>What to Expect</h3>
         <p>I'm a title. Click here to add your own text and edit me</p>
-        <div class="informations_section">
-            <div class="cooking">
+        <div class="montains__section__informations d-flex justify-content-center">
+            <div class="montains__section__informations__cooking d-flex flex-column align-items-center">
                 <img src="./Assets/img/café.png" alt="latte"/>
                 Cooking classes</div>
-            <div class="hiking">
+            <div class="montains__section__informations__hiking d-flex flex-column align-items-center">
                 <img src="./Assets/img/chaussure.png" alt="boots"/>
                 Hiking</div>
-            <div class="lodging">
+            <div class="montains__section__informations__lodging d-flex flex-column align-items-center">
                 <img src="./Assets/img/tente.png" alt="tente"/>
                 Lodging</div>
-            <div class="campfires">
+            <div class="montains__section__informations__campfires d-flex flex-column align-items-center">
                 <img src="./Assets/img/feu.png" alt="fires"/>
                 Campfires</div>
         </div>
+
+        <div class="montains__section__informations__button"></div>
+    </section>
+
+
+        <section class="form">
         <div class="buttons"></div> 
 
         <section class="citation">
@@ -96,7 +102,7 @@
             </div>
         </section>
     </div>
-              <section class="galerie">
+        <section class="galerie">
             <div>
                 <div>
                     <img src="./Assets/img/image-galerie-1.png" alt="">
@@ -116,9 +122,10 @@
                     <img src="./Assets/img/image-galerie-11.png" alt="">
                     <img src="./Assets/img/image-galerie-12.png" alt="">
                 </div>
-
             </div>
         </section>
+
+
         <div class="form">
             <div class="form__text">
                 <h3>Contact</h3>
@@ -140,6 +147,8 @@
                 </form>
             </div>
         </div>
+
+
         <footer class="footer">
             <div class="footer__logo">
                 <img src="/Assets/img/fb.png" alt="logo facebook">
