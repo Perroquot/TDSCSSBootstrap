@@ -1,9 +1,11 @@
 $primary: #0b181e;
 $secondary: #f9b860;
+$noir: #000000;
 
 $theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
+  "noir": $noir,
 );
 @font-face {
   font-family: "Playfair Display";
@@ -16,5 +18,4 @@ $theme-colors: (
 $font-family-base: "Raleway";
 $font-family-title: "Playfair Display";
 
-$body-color: white;
 $link-color: white;
