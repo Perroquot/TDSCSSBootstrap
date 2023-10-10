@@ -6,26 +6,29 @@
     <title>TD : Intégration web avec Bootstrap & SASS</title>
     <link rel="stylesheet" href="./Assets/css/style.css">
 </head>
-<body>
-    <header>
-      <div class="navbar bg-primary">
-        <div class="navbar__logo">
+<body class="bg-primary">
+    <header class="vh-100">
+      <div class="navbg bg-primary d-flex justify-content-center">
+        <div class="navbar">
+        <div class="navbar__logo d-flex align-items-center p-2">
           <img src="./Assets/img/logo tente.png" alt="logo tente" />
-          <p>cooking' Camp</p>
+          <h4 class="p-2">cooking' Camp</h4>
         </div>
-        <div class="navbar__infos">
-          <div class="infos__links">
-            <a href="">Home</a>
-            <a href="">Infos</a>
-            <a href="">Dates</a>
+        <div class="navbar__infos d-flex align-items gap-5">
+          <div class="infos__links d-flex gap-3">
+            <a href="" class="text-decoration-none">Home</a>
+            <a href="" class="text-decoration-none">Infos</a>
+            <a href="" class="text-decoration-none">Dates</a>
           </div>
-          <div class="infos__reseaux">
-            <a href=""><img src="./Assets/img/fb.png" alt="facebook" /></a>
+          <div class="infos__reseaux d-flex gap-3">
+            <a href=""><img src="./Assets/img/fb.png" alt="facebook" class="w-10" /></a>
             <a href=""><img src="./Assets/img/insta.png" alt="instagram" /></a>
             <a href=""><img src="./Assets/img/youtube.png" alt="youtube" /></a>
           </div>
         </div>
+        </div>
       </div>
+      <div class="h-100 d-flex align-items-center justify-content-center flex-column">
       <div class="title">
         <h1>Culinary Sleepaway <br />Camp for Grown-Ups!</h1>
         <p class="desc-title">Summer 2035 | Lassen State Park</p>
@@ -102,21 +105,22 @@
             </div>
         </section>
     </div>
-              <section class="galerie">
-            <div>
-                <div>
+              <section class="galerie d-flex justify-content-center flex-column align-items-center">
+                <div class="d-flex justify-content-center p-2"><h3>Camp Life Gallery</h3></div>
+            <div class="d-flex flex-column gap-2">
+                <div class="d-flex flex-row gap-2">
                     <img src="./Assets/img/image-galerie-1.png" alt="">
                     <img src="./Assets/img/image-galerie-2.png" alt="">
                     <img src="./Assets/img/image-galerie-3.png" alt="">
                     <img src="./Assets/img/image-galerie-4.png" alt="">
                 </div>
-                <div>
+                <div class="d-flex flex-row gap-2">
                     <img src="./Assets/img/image-galerie-5.png" alt="">
                     <img src="./Assets/img/image-galerie-6.png" alt="">
                     <img src="./Assets/img/image-galerie-7.png" alt="">
                     <img src="./Assets/img/image-galerie-8.png" alt="">
                 </div>
-                <div>
+                <div class="d-flex flex-row gap-2">
                     <img src="./Assets/img/image-galerie-9.png" alt="">
                     <img src="./Assets/img/image-galerie-10.png" alt="">
                     <img src="./Assets/img/image-galerie-11.png" alt="">
