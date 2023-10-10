@@ -1,11 +1,22 @@
-@use '../abstracts/variable' as *;
+@use "../abstracts/variable" as *;
 
-
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
 
-
+.gallery {
+  // margin: 0;
+  // padding: 0;
+  width: 100%;
+  &__h2 {
+    font-size: 5vh;
+    width: 100%;
+    padding: 2vw;
+  }
+  &__img {
+    width: 100%;
+  }
+}
