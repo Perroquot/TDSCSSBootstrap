@@ -5,32 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TD : Intégration web avec Bootstrap & SASS</title>
     <link rel="stylesheet" href="./Assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body class="bg-noir">
-     <header class="vh-100">
-      <div class="navbg bg-primary d-flex justify-content-center">
-        <div class="navbar">
-        <div class="navbar__logo d-flex align-items-center p-2">
-          <img src="./Assets/img/logo tente.png" alt="logo tente" />
-          <h4 class="p-2">cooking' Camp</h4>
+        <header class="vh-100">
+        <div class="navbg bg-primary d-flex justify-content-center">
+            <div class="navbar">
+            <div class="navbar__logo d-flex align-items-center p-2">
+            <img src="./Assets/img/logo tente.png" alt="logo tente" />
+            <h4 class="p-2">cooking' Camp</h4>
+            </div>
+            <div class="navbar__infos d-flex align-items gap-5">
+            <div class="infos__links d-flex gap-3">
+                <a href="" class="text-decoration-none">Home</a>
+                <a href="" class="text-decoration-none">Infos</a>
+                <a href="" class="text-decoration-none">Dates</a>
+            </div>
+            <div class="infos__reseaux d-flex gap-3">
+                <a href=""><img src="./Assets/img/fb.png" alt="facebook" class="w-10" /></a>
+                <a href=""><img src="./Assets/img/insta.png" alt="instagram" /></a>
+                <a href=""><img src="./Assets/img/youtube.png" alt="youtube" /></a>
+            </div>
+            </div>
+            </div>
         </div>
-        <div class="navbar__infos d-flex align-items gap-5">
-          <div class="infos__links d-flex gap-3">
-            <a href="" class="text-decoration-none">Home</a>
-            <a href="" class="text-decoration-none">Infos</a>
-            <a href="" class="text-decoration-none">Dates</a>
-          </div>
-          <div class="infos__reseaux d-flex gap-3">
-            <a href=""><img src="./Assets/img/fb.png" alt="facebook" class="w-10" /></a>
-            <a href=""><img src="./Assets/img/insta.png" alt="instagram" /></a>
-            <a href=""><img src="./Assets/img/youtube.png" alt="youtube" /></a>
-          </div>
-        </div>
-        </div>
-      </div>
-      <div class="h-100 d-flex align-items-center justify-content-center">
-        <div class=" d-flex flex-column">
-      <div class="title">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class=" d-flex flex-column">
+        <div class="title">
         <h1>Culinary Sleepaway <br />Camp for Grown-Ups!</h1>
         <div class="title__desc"><p>Summer 2035 | Lassen State Park</p></div>
         </div>
@@ -127,26 +130,85 @@
 
         <section class="form">
         <div class="buttons"></div> 
+            
+                <section class="reviews">
+                    <div class="container text-center mt-5">
+                    <!-- <h2 class="mb-5">Carousel Bootstrap avec 3 éléments</h2> -->
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicateurs -->
+                        <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+            
+                        <!-- Slides -->
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <mask id="mask0_32_278" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-1" y="0" width="41" height="40">
+                                <path d="M39.9976 0H-0.00238037V40H39.9976V0Z" fill="white"/>
+                                </mask>
+                                <g mask="url(#mask0_32_278)">
+                                <path d="M16.9761 8.04228C12.3716 11.0678 8.1991 16.8303 7.76702 21.4407C7.9112 21.4407 8.91793 21.2965 9.63722 21.2965C13.6664 21.2965 16.5441 24.3211 16.5441 28.6431C16.5502 29.6467 16.3572 30.6416 15.9762 31.5702C15.5953 32.4987 15.0339 33.3425 14.3247 34.0526C13.6154 34.7628 12.7724 35.3252 11.8443 35.7073C10.9162 36.0894 9.92158 36.2836 8.91793 36.2788C4.17011 36.2788 -0.00238037 32.3888 -0.00238037 25.3299C-0.00238037 16.5419 5.03335 8.47506 11.6523 3.72119L16.9761 8.04228ZM39.9976 8.04228C35.393 11.0678 31.3645 16.8303 30.7885 21.4407C30.9317 21.4407 31.9391 21.2965 32.6587 21.2965C36.687 21.2965 39.7088 24.3211 39.7088 28.6431C39.7088 32.8207 36.2558 36.2788 31.9391 36.2788C27.1913 36.2788 23.0188 32.3888 23.0188 25.3299C23.0188 16.5419 28.0541 8.47506 34.6728 3.72119L39.9976 8.04228Z" fill="#F9B860"/>
+                                </g>
+                                </svg>                                
+                            <p>
+                            I'm a testimonial. Click to edit me and add text that says
+                            something nice about you and your services. Let your customers
+                            review you and tell their friends how great you are.
+                            </p>
+                            <h2>Jenny Phung</h2>
+                            <div class="carousel-caption"></div>
+                        </div>
+                        <div class="carousel-item">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <mask id="mask0_32_278" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-1" y="0" width="41" height="40">
+                                <path d="M39.9976 0H-0.00238037V40H39.9976V0Z" fill="white"/>
+                                </mask>
+                                <g mask="url(#mask0_32_278)">
+                                <path d="M16.9761 8.04228C12.3716 11.0678 8.1991 16.8303 7.76702 21.4407C7.9112 21.4407 8.91793 21.2965 9.63722 21.2965C13.6664 21.2965 16.5441 24.3211 16.5441 28.6431C16.5502 29.6467 16.3572 30.6416 15.9762 31.5702C15.5953 32.4987 15.0339 33.3425 14.3247 34.0526C13.6154 34.7628 12.7724 35.3252 11.8443 35.7073C10.9162 36.0894 9.92158 36.2836 8.91793 36.2788C4.17011 36.2788 -0.00238037 32.3888 -0.00238037 25.3299C-0.00238037 16.5419 5.03335 8.47506 11.6523 3.72119L16.9761 8.04228ZM39.9976 8.04228C35.393 11.0678 31.3645 16.8303 30.7885 21.4407C30.9317 21.4407 31.9391 21.2965 32.6587 21.2965C36.687 21.2965 39.7088 24.3211 39.7088 28.6431C39.7088 32.8207 36.2558 36.2788 31.9391 36.2788C27.1913 36.2788 23.0188 32.3888 23.0188 25.3299C23.0188 16.5419 28.0541 8.47506 34.6728 3.72119L39.9976 8.04228Z" fill="#F9B860"/>
+                                </g>
+                                </svg>                                
+                            <p>
+                            I'm a testimonial. Click to edit me and add text that says
+                            something nice about you and your services. Let your customers
+                            review you and tell their friends how great you are.
+                            </p>
+                            <h2>Jenny Tong</h2>
+                            <div class="carousel-caption"></div>
+                        </div>
+                        <div class="carousel-item">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <mask id="mask0_32_278" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-1" y="0" width="41" height="40">
+                                <path d="M39.9976 0H-0.00238037V40H39.9976V0Z" fill="white"/>
+                                </mask>
+                                <g mask="url(#mask0_32_278)">
+                                <path d="M16.9761 8.04228C12.3716 11.0678 8.1991 16.8303 7.76702 21.4407C7.9112 21.4407 8.91793 21.2965 9.63722 21.2965C13.6664 21.2965 16.5441 24.3211 16.5441 28.6431C16.5502 29.6467 16.3572 30.6416 15.9762 31.5702C15.5953 32.4987 15.0339 33.3425 14.3247 34.0526C13.6154 34.7628 12.7724 35.3252 11.8443 35.7073C10.9162 36.0894 9.92158 36.2836 8.91793 36.2788C4.17011 36.2788 -0.00238037 32.3888 -0.00238037 25.3299C-0.00238037 16.5419 5.03335 8.47506 11.6523 3.72119L16.9761 8.04228ZM39.9976 8.04228C35.393 11.0678 31.3645 16.8303 30.7885 21.4407C30.9317 21.4407 31.9391 21.2965 32.6587 21.2965C36.687 21.2965 39.7088 24.3211 39.7088 28.6431C39.7088 32.8207 36.2558 36.2788 31.9391 36.2788C27.1913 36.2788 23.0188 32.3888 23.0188 25.3299C23.0188 16.5419 28.0541 8.47506 34.6728 3.72119L39.9976 8.04228Z" fill="#F9B860"/>
+                                </g>
+                                </svg>                                
+                            <p>
+                            I'm a testimonial. Click to edit me and add text that says
+                            something nice about you and your services. Let your customers
+                            review you and tell their friends how great you are.
+                            </p>
+                            <h2>Jenny Phone</h2>
+                            <div class="carousel-caption"></div>
+                        </div>
+                        </div>
+                        <!-- Contrôles -->
+                        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                    </div>
+                </section>
 
-        <section class="citation">
-            <div class="citation__left">
-                <i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
-            </div>
-            <div class="citation__center">
-                <h3>"</h3>
-                <p>I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your</p>
-                <p>customers review you and tell their friends how great you are.</p>
-                <h4>Jenny Phung</h4>
-                <div class="citation__center__button">
-                    <button></button>
-                    <button></button>
-                    <button></button>
-                </div>
-            </div>
-            <div class="citation__right">
-                <i class="bi bi-chevron-right"></i>
-            </div>
-        </section>
+
+
         <section class="feuille">
             <div class="feuille__text">
                 <h3>Ready for Camp?</h3>
@@ -156,7 +218,6 @@
             </div>
         </section>
 
-             
         
         <div class="form bg-primary">
             <div class="form__text">
