@@ -23,6 +23,13 @@ header {
   display: none;
 }
 
+.barbecue__section____descbarbecue {
+  width: 50%;
+}
+.barbecue__section__img____detail {
+  width: 50%;
+}
+
 .montains__section {
   background: url("/Assets/img/montagne.png") no-repeat;
   height: 762px;
