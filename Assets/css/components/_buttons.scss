@@ -14,3 +14,23 @@
     width: 12vh;
     height: 3.5vh;
 }
+
+.barbecue__section__descbarbecue__sign button{
+    background-color: map-get($map: $theme-colors, $key: 'primary');
+    border: 1px solid map-get($map: $theme-colors, $key: 'secondary');
+    color: map-get($map: $theme-colors, $key: 'secondary' );
+    width: 12vh;
+    height: 3.5vh;
+}
+
+.feuille__button{
+    display: flex;
+    justify-content: center;
+
+    & button{
+        background-color: map-get($map: $theme-colors, $key: 'secondary');
+        border: 0;
+        width: 12vh;
+        height: 3.5vh;
+    }
+}

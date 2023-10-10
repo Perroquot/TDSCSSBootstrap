@@ -1,11 +1,13 @@
 $primary: #0b181e;
 $secondary: #f9b860;
 $noir: #000000;
+$blanc: #ffffff;
 
 $theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
   "noir": $noir,
+  "blanc": $blanc,
 );
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway");
