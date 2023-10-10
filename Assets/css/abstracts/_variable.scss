@@ -7,14 +7,10 @@ $theme-colors: (
   "secondary": $secondary,
   "noir": $noir,
 );
-@font-face {
-  font-family: "Playfair Display";
-  src: url("../typo/PlayfairDisplay-Regular.ttf");
-}
-@font-face {
-  font-family: "Raleway";
-  src: url(../typo/Raleway-Regular.ttf);
-}
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display");
+
 $font-family-base: "Raleway";
 $font-family-title: "Playfair Display";
 
