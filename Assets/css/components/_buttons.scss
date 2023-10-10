@@ -1,7 +1,16 @@
+@use "../abstracts/variable" as *;
+
 .form__form__submit button{
     width: 10vh;
     height: 4vh;
     margin-left: 40vh;
     border: 0;
     margin-bottom: 5vh;
+}
+
+.sign_full button{
+    background-color: map-get($map: $theme-colors, $key: 'secondary');
+    border: 0;
+    width: 12vh;
+    height: 3.5vh;
 }
