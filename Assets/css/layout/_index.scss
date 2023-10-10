@@ -1,8 +1,13 @@
+.barbecue__section__descbarbecue{
+    width: 50%;
+}
 
 .montains__section {
-  background: url("../img/montagne.png") no-repeat;
-  background-size: cover;
-  height: 762px;
+    background: url("../img/montagne.png") no-repeat;
+    background-size: cover;
+    padding: 10em;
+    // height: 762px;
+}
 
 .feuille{
     background:url('../img/fleur.png') no-repeat;
@@ -18,5 +23,13 @@
         & h3{
             font-size: 6vh;
         }
+    }
+}
+@media (max-width: 770px) {
+    .barbecue__section__img{
+        display: none;
+    }
+    .barbecue__section__descbarbecue{
+        width: 100%;
     }
 }
