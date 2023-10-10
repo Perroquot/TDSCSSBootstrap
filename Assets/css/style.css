@@ -31,18 +31,6 @@ p {
   margin: 0%;
 }
 
-header {
-  background: url("../img/image-header.png");
-  background-color: rgba(0, 0, 0, 0.9);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.navbar {
-  width: 85%;
-  margin: 0%;
-}
-
 .form__form__submit button {
   width: 10vh;
   height: 4vh;
@@ -109,6 +97,18 @@ header {
 
 ::placeholder {
   color: white;
+}
+
+header {
+  background: url("../img/image-header.png");
+  background-color: rgba(0, 0, 0, 0.9);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  width: 85%;
+  margin: 0%;
 }
 
 .montains__section {
