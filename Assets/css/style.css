@@ -14,6 +14,18 @@
   text-decoration: none;
 }
 
+.gallery {
+  width: 100%;
+}
+.gallery__h2 {
+  font-size: 5vh;
+  width: 100%;
+  padding: 2vw;
+}
+.gallery__img {
+  width: 100%;
+}
+
 h1, .h1,
 h2,
 .h2,
@@ -28,18 +40,6 @@ h5,
 }
 
 p {
-  margin: 0%;
-}
-
-header {
-  background: url("../img/image-header.png");
-  background-color: rgba(0, 0, 0, 0.9);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.navbar {
-  width: 85%;
   margin: 0%;
 }
 
@@ -109,6 +109,18 @@ header {
 
 ::placeholder {
   color: white;
+}
+
+header {
+  background: url("../img/image-header.png");
+  background-color: rgba(0, 0, 0, 0.9);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  width: 85%;
+  margin: 0%;
 }
 
 .montains__section {
